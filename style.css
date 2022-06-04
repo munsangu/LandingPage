@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Oswald:wght@400;700&display=swap');
 
-* {margin: 0; padding: 0; border: 0; box-sizing: border-box; font-family: "Noto Sans KR", sans-serif; letter-spacing: -1px;}
+* {margin: 0; padding: 0; border: 0; box-sizing: border-box; font-family: "Noto Sans KR", sans-serif; letter-spacing: -1px; text-decoration: none;}
 
 /* 공통 */
-.margin_top_add {margin-top: 100px;}
+.common_box > div > div .padding_clear {padding: 0 !important; }
 
 /* 01 */
 .common_box {width: 100%; float:left; min-width:1200px;}
@@ -15,7 +15,7 @@
 .common_box .container_area .top_area .num_title {width: 100%; float: left; text-align: center; color: #aaa; font-size: 50px; font-weight: 700;}
 .common_box .container_area .top_area .information_title {width: 100%; float: left; text-align: center; color: #010101; font-size: 50px; font-weight: 700;}
 
-.common_box .content_area {width: 100%; float: left; margin-top: 70px;}
+.common_box .content_area {width: 100%; float: left; margin-top: 70px; padding-bottom: 50px;}
 .common_box .content_area .warning_param {width: 100%; float: left; background-color: #4e3ca0; border-radius: 20px 20px 0 0; text-align: center; font-size: 40px; font-weight: 500; color: #b6b0d4; padding: 10px 0;}
 .common_box .content_area .date_intro {width: 100%; float: left; padding: 20px 30px; border:3px solid #4e3ca0; border-radius: 0 0 20px 20px;}
 .common_box .date_intro > div {width: 100%; float: left; padding: 5px 0 10px; text-align: center; font-size: 30px; font-weight: 500; border-bottom: 1px dashed #c0c0c0;}
@@ -28,3 +28,20 @@
 .common_box .alert_area {width: 100%; float: left; font-size: 22px; font-weight: 300; color: #8c8c8c; margin-top: 20px; padding-left: 10px;}
 
 /* 02 */
+.common_box .content_area .mini_box {width: 31%; float: left; text-align: center;}
+.common_box .content_area .mini_box:not(:first-child) {margin-left: 31px;}
+
+.common_box .content_area .mini_box .img_box {width: 100%; float: left; border: 2px solid #EFEFEF; border-bottom: none; border-radius: 50px 50px 0 0; padding-top: 30px;}
+.common_box .content_area .img_box div {width: 100%; float: left; font-size: 33px;}
+.common_box .content_area .img_box div.img_img {font-size: 0; margin-top: 10px;}
+.common_box .content_area .img_box p {width: 100%; float: left;}
+.common_box .content_area .img_box p.main_title {font-weight: 700;}
+.common_box .content_area .img_box p.mint_color {color: #7CD4C0;}
+.common_box .content_area .img_box p.sky_color {color: #467CDF;}
+.common_box .content_area .img_box p.purple_color {color: #4D276B;}
+
+.common_box .content_area .mini_box .hyperlink_box {width: 100%; float: left; color: #FFF; font-size: 30px; font-weight: 700;  border-radius: 0 0 50px 50px; padding: 26px 20px;}
+.common_box .content_area .mini_box .mint_bg {background-color: #7CD4C0;}
+.common_box .content_area .mini_box .sky_bg {background-color: #467CDF;}
+.common_box .content_area .mini_box .purple_bg {background-color: #4D276B;}
+.common_box .content_area .mini_box .hyperlink_box a {width: 100%; float: left; color: inherit;}
