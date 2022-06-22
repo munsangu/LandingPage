@@ -17,12 +17,12 @@ img {vertical-align: middle; max-width: 100%;}
 .container_area .top_area .num_title {width: 100%; float: left; text-align: center; color: #aaa; font-size: 50px; font-weight: 700;}
 .container_area .top_area .information_title {width: 100%; float: left; text-align: center; color: #010101; font-size: 50px; font-weight: 700;}
 .container_area .top_area .information_sub {width: 100%; float: left; text-align: center; color: #666; font-size: 25px; font-weight: 300;}
-.content_area {width: 100%; float: left; margin-top: 70px; padding-bottom: 50px;}
+.contents_area {width: 100%; float: left; margin-top: 70px; padding-bottom: 50px;}
 /* 공통 */
 
 /* 01 - 통로이미지 접수일자*/
-.section_01 .content_area .warning_param {width: 100%; float: left; background-color: #4e3ca0; border-radius: 20px 20px 0 0; text-align: center; font-size: 40px; font-weight: 500; color: #b6b0d4; padding: 10px 0;}
-.section_01 .content_area .date_intro {width: 100%; float: left; padding: 20px 30px; border:3px solid #4e3ca0; border-radius: 0 0 20px 20px;}
+.section_01 .contents_area .warning_param {width: 100%; float: left; background-color: #4e3ca0; border-radius: 20px 20px 0 0; text-align: center; font-size: 40px; font-weight: 500; color: #b6b0d4; padding: 10px 0;}
+.section_01 .contents_area .date_intro {width: 100%; float: left; padding: 20px 30px; border:3px solid #4e3ca0; border-radius: 0 0 20px 20px;}
 .section_01 .date_intro > div {width: 100%; float: left; padding: 5px 0 10px; text-align: center; font-size: 30px; font-weight: 500; border-bottom: 1px dashed #c0c0c0;}
 .section_01 .date_intro > div:last-child {border: none;}
 .section_01 .date_intro .check_signal {width: 12%; float: left; text-align: right; font-size: inherit; font-weight: 700; color: #4e3ca0;}
@@ -34,53 +34,52 @@ img {vertical-align: middle; max-width: 100%;}
 /* 01 - 통로이미지 접수일자*/
 
 /* 02 - 미다웍스 체험하기 */
-.section_02 .content_area .mini_box {width: 32%; float: left; text-align: center;}
-.section_02 .content_area .middle_box {width: 36%; padding: 0 2%;}
+.section_02 .contents_area .mini_box {width: 32%; float: left; text-align: center;}
+.section_02 .contents_area .middle_box {width: 36%; padding: 0 2%;}
 
-.section_02 .content_area .mini_box .img_box {width: 100%; float: left; border: 2px solid #EFEFEF; border-bottom: none; border-radius: 50px 50px 0 0; padding-top: 30px;}
-.section_02 .content_area .img_box div {width: 100%; float: left; font-size: 33px;}
-.section_02 .content_area .img_box div.img_img {font-size: 0; margin-top: 10px;}
-.section_02 .content_area .img_box p {width: 100%; float: left;}
-.section_02 .content_area .img_box p.main_title {font-weight: 700;}
-.section_02 .content_area .img_box p.mint_color {color: #7CD4C0;}
-.section_02 .content_area .img_box p.sky_color {color: #467CDF;}
-.section_02 .content_area .img_box p.purple_color {color: #4D276B;}
+.section_02 .contents_area .mini_box .img_box {width: 100%; float: left; border: 2px solid #EFEFEF; border-bottom: none; border-radius: 50px 50px 0 0; padding-top: 30px;}
+.section_02 .contents_area .img_box div {width: 100%; float: left; font-size: 33px;}
+.section_02 .contents_area .img_box div.img_img {font-size: 0; margin-top: 10px;}
+.section_02 .contents_area .img_box p {width: 100%; float: left;}
+.section_02 .contents_area .img_box p.main_title {font-weight: 700;}
+.section_02 .contents_area .img_box p.mint_color {color: #7CD4C0;}
+.section_02 .contents_area .img_box p.sky_color {color: #467CDF;}
+.section_02 .contents_area .img_box p.purple_color {color: #4D276B;}
 
-.section_02 .content_area .mini_box .hyperlink_box {width: 100%; float: left; color: #FFF; font-size: 30px; font-weight: 700;  border-radius: 0 0 50px 50px;}
-.section_02 .content_area .mini_box .mint_bg {background-color: #7CD4C0;}
-.section_02 .content_area .mini_box .sky_bg {background-color: #467CDF;}
-.section_02 .content_area .mini_box .purple_bg {background-color: #4D276B;}
-.section_02 .content_area .mini_box .hyperlink_box a {width: 100%; float: left; color: inherit; padding: 26px 20px;}
+.section_02 .contents_area .mini_box .hyperlink_box {width: 100%; float: left; color: #FFF; font-size: 30px; font-weight: 700;  border-radius: 0 0 50px 50px;}
+.section_02 .contents_area .mini_box .mint_bg {background-color: #7CD4C0;}
+.section_02 .contents_area .mini_box .sky_bg {background-color: #467CDF;}
+.section_02 .contents_area .mini_box .purple_bg {background-color: #4D276B;}
+.section_02 .contents_area .mini_box .hyperlink_box a {width: 100%; float: left; color: inherit; padding: 26px 20px;}
 /* 02 - 미다웍스 체험하기 */
 
 /* 03 - 미다웍스 완성도가 높은 이유 */
 .section_03 .container_area .top_area .information_sub {width: 100%; float: left; text-align: center; color: #666; font-size: 25px; font-weight: 300;}
-.section_03 .container_area .content_area .large_img {width: 44%; float: left; padding: 110px 80px;}
-.section_03 .container_area .content_area .small_imgs {width: 56%; float: left;}
-.section_03 .content_area .small_imgs .mini_line {width: 100%; float: left;}
-.section_03 .content_area .small_imgs .mini_line:not(:first-child) {margin-top: 45px;}
-.section_03 .content_area .small_imgs .circle_img {width: 26%; height: 172px; float: left; border-radius: 50%; border: 4px solid #BBDDF2; background-color: #FFF;}
-.section_03 .content_area .small_imgs .circle_img img {padding: 34px;}
-.section_03 .content_area .small_imgs .img_text {width: 74%;float: left;padding: 19px 0 4px 28px;}
+.section_03 .container_area .contents_area .large_img {width: 44%; float: left; padding: 110px 80px;}
+.section_03 .container_area .contents_area .small_imgs {width: 56%; float: left;}
+.section_03 .contents_area .small_imgs .mini_line {width: 100%; float: left;}
+.section_03 .contents_area .small_imgs .mini_line:not(:first-child) {margin-top: 45px;}
+.section_03 .contents_area .small_imgs .circle_img {width: 26%; height: 172px; float: left; border-radius: 50%; border: 4px solid #BBDDF2; background-color: #FFF;}
+.section_03 .contents_area .small_imgs .circle_img img {padding: 34px;}
+.section_03 .contents_area .small_imgs .img_text {width: 74%;float: left;padding: 19px 0 4px 28px;}
 .section_03 .small_imgs .img_text .text_tittle {width: 100%;float: left;font-size: 26px;font-weight: 500;}
 .section_03 .small_imgs .img_text .text_content {width: 100%;float: left;font-size: 22px;font-weight: 300;}
 /* 03 - 미다웍스 완성도가 높은 이유 */
 
 /* 04 우리병원 펫케어 완벽하개 */
 .section_04 .container_area .top_area .num_title {text-align: right;}
-.section_04 .container_area .top_area .information_title {width: 50%; float: right; text-align: right;}
-.section_04 .container_area .top_area .information_sub {width: 51%; float: right; text-align: right;}
-.section_04 .container_area .top_area .large_img {width: 35%; float: left; position: absolute; top: 112px; left: 47px; z-index: 3;}
+.section_04 .container_area .top_area .information_title {width: 100%; float: left; text-align: right;}
+.section_04 .container_area .top_area .information_sub {width: 100%; float: left; text-align: right;}
 
-.section_04 .container_area .content_area {width: 100%;float: left;background-color: #E6F3F9;padding: 100px 0 60px;}
-.section_04 .container_area .content_area .list_area {width: 100%;float: left;/* padding: 50px 0; *//* padding-bottom: 30px; */}
+.section_04 .container_area .contents_area {width: 100%;float: left;background-color: #E6F3F9;padding: 100px 0 60px;}
+.section_04 .container_area .contents_area .large_img {width: 35%; float: left; position: absolute; bottom: 335px; left: 49px; z-index: 3;}
+.section_04 .container_area .contents_area .list_area {width: 100%;float: left;/* padding: 50px 0; *//* padding-bottom: 30px; */}
 
 .section_04 .container_area .list_area ul {width: 25%;float: left;text-align: center;/* padding-top: 20px; *//* padding: 30px 0; *//* padding-bottom: 42px; */padding: 10px 0 32px;/* vertical-align: middle; *//* line-height: 27px; */}
 .section_04 .container_area .list_area ul:not(:first-child) {border-left: 1px solid #C9C9Cb;}
 .section_04 .container_area ul .list_icons {width: 100%; float: left;}
 .section_04 .container_area ul .list_titles {width: 100%;float: left;font-weight: 700;font-size: 20px;margin-top: 20px;}
 .section_04 .container_area ul .list_explain {width: 100%;float: left;margin-top: 30px;font-size: 15px;font-weight: 400;}
-.section_04 .container_area .list_area ul.more_btn {width: 29%;float: left;text-align: center;padding: 0;border-left: none;background-color: #3398CC;position: absolute;border-radius: 38px;bottom: -90px;left: 429px;}
-.section_04 .container_area ul.more_btn li {width: 100%; float: left;}
-.section_04 .container_area ul.more_btn li a {width: 100%;float: left;color: #FFF;font-size: 22px;font-weight: 700;padding: 15px 0;}
+.section_04 .container_area .more_btn {width: 25%; float: left; text-align: center;padding: 0; border-left: none; background-color: #3398CC; position: absolute; border-radius: 38px; bottom: -30px; left: 456px;}
+.section_04 .container_area .more_btn a {width: 100%;float: left; color: #FFF; font-size: 22px; font-weight: 700; padding: 15px 0;}
 /* 04 우리병원 펫케어 완벽하개 */
